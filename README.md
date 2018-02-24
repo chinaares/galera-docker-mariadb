@@ -196,7 +196,7 @@ To build Docker image, download the Docker related files available at [our Githu
 ```bash
 $ git clone https://github.com/severalnines/galera-docker-mariadb
 $ cd galera-docker-mariadb
-$ docker build -t --rm=true severalnines/mariadb .
+$ docker build --rm=true -t severalnines/mariadb .
 ```
 
 Verify with:
